@@ -63,10 +63,8 @@ func getGoType(value interface{}) string {
 		}
 		return "[]interface{}"
 	case map[string]interface{}:
-		// Pour un objet imbriqué, on retourre un type struct générique
-		// Une amélioration serait de générer un nom unique pour cette struct imbriquée
 		return "map[string]interface{}"
 	default:
-		return "interface{}" // Type par défaut si inconnu
+		return "interface{}"
 	}
 }
