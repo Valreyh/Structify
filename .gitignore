@@ -1,0 +1,32 @@
+# Binaries files
+/structify
+/structify.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+/bin/
+/dist/
+
+# Test and coverage files
+*.test
+*.out
+/coverage.txt
+/profile.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Temporary files
+/tmp/
+/output.go
+/test.json
