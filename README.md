@@ -1,0 +1,2 @@
+# Structify
+WIP Struct converter
